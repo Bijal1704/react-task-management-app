@@ -8,7 +8,7 @@
 }
 .nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
   height:100%;
   padding: 20px;
@@ -26,7 +26,8 @@ nav a{
   font-size: 20px;
 }
 .Button{
-  display: flex;justify-content: end;
+  display: flex;
+  justify-content: flex-end;
   margin:20px !important;
 }
 
