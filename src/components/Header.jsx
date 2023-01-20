@@ -11,7 +11,7 @@ function Header() {
           </div>
           <div className="nav-right">
             <div className="tabs">
-              <a href="#">Task Management App by Bijal Infotech</a>
+              <a href="#">Task Management App by Bijal</a>
             </div>
           </div>
         </nav>
