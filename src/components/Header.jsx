@@ -5,13 +5,13 @@ function Header() {
       <div>
         <nav className="nav">
           <div className="nav-left">
-            <a className="brand" href="#">
+            <span className="brand" href="#">
                 Bijal Tasks
-            </a>
+            </span>
           </div>
           <div className="nav-right">
             <div className="tabs">
-              <a href="#">Task Management App by Bijal</a>
+              <span>Task Management App by Bijal</span>
             </div>
           </div>
         </nav>

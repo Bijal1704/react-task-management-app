@@ -9,15 +9,15 @@ const Todo = () => {
   const [showList, setshowList] = useState(true);
 
   //   const [addMessage, setaddMessage] = useState('')
-  const [editMessage, seteditMessage] = useState(false);
+  const [editMessage] = useState(false);
   const [deleteMessage, setdeleteMessage] = useState(false);
-  const [deleteMessagesuccess, setdeleteMessagesuccess] = useState(false);
+  const [setdeleteMessagesuccess] = useState(false);
   //   const [completeMessage, setcompleteMessage] = useState(false)
 
   const [inputData, setinputData] = useState("");
   const [inputDesc, setinputDesc] = useState("");
 
-  const [cmp, setcmp] = useState(false);
+  const [cmp] = useState(false);
 
   const [items, setitems] = useState([
     {
